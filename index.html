@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <section class="general-container ">
+        <div class="timer-name">Pomodoro Timer</div>
+
+        <div class="timer-section">
+            <div class="pomodoro break active">pomodoro</div>
+            <div class="short-break break ">short break</div>
+            <div class="long-break break">long break</div>
+        </div>
+
+        <secton class="timer-wrapper">
+            <div class="timer-circle">
+                <div class="progress-bar">
+                    <div class="timer">
+                        <div class="time">24:00</div>
+                    </div>
+                </div>
+            </div>
+        </secton>
+
+        <div class="controls">
+            <button class="play-paused-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="play" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"></path>
+                </svg>
+
+                <button class="reset-btn">Reset</button>
+
+                <audio src="./countdown.mp3"></audio>
+            </button>
+        </div>
+
+    </section>
+</body>
+</html>
